@@ -5,6 +5,15 @@
 In this project I set out to make a jacket for a costume with which I could change colors and pulse lights in a pattern,
 [WLED](https://github.com/WLED/WLED) allowed for app-based control and minimal fiddling once powered on.
 
+## <ins>PCB Update March 2026 </ins>
+![PCB 2D View](PCB/Images/2D%20View.png)
+Currently awaiting delivery of a prototype PCB board for this jacket. Using an ESP32-S3 and a digital microphone to make audio reactivity possible with WLED.
+Chose to use USB-C for programming and power due to availability of cables, and the USB-A plug (but not the full standard) for the connection to the lights. Exploring USB-C plug or magnetic connectors for this purpose.
+Gerber files can be found [here](PCB/LightJacketV0.1.zip).
+![PCB 3D View 1](PCB/Images/3D%20View%201.png)
+![PCB 3D View 2](PCB/Images/3D%20View%202.png)
+
+
 ## Jacket Construction
 ![Jacket unfurled showing strip and circuit board](Images/open.jpg)
 <img src="Images/open.jpg" width="400" alt="Jacket unfurled showing strip and circuit board">
