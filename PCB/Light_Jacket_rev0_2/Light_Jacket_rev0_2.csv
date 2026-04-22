@@ -1,0 +1,43 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,Supplier Part,LCSC Part Name
+"BOOT1,RESET1",2,~,,,,EasyEDA_Lib:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H7.3,https://item.szlcsc.com/datasheet/HX-6x6x7.3-TP%2520FT%2520square%2520button/51650213.html,C49234152,6*6*7.3mm贴片 方头 轻触开关
+C1,1,1uF,,,,EasyEDA_Lib:C0603,https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html,C15849,1uF ±10% 50V
+"C2,C5,C6,C7",4,100nF,,,,EasyEDA_Lib:C0603,https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html,C14663,100nF ±10% 50V
+C3,1,22uF,,,,EasyEDA_Lib:CAP-SMD_L3.5-W2.8,https://item.szlcsc.com/datasheet/CA45-B-10V-22uF-K/151738.html,C140412,22uF ±10% 10V
+C4,1,22uF,,,,EasyEDA_Lib:C0805,https://item.szlcsc.com/datasheet/CL21A226MAYNNNE/631473.html,C602037,22uF ±20% 25V
+CAP1,1,10uF,,,,EasyEDA_Lib:CAP-SMD_L2.0-W1.3-FD,https://item.szlcsc.com/datasheet/CA45-P-10V-10uF-K/940979.html,C879894,10uF ±10% 10V
+D1,1,~,,,,EasyEDA_Lib:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL,https://item.szlcsc.com/datasheet/USBLC6-2SC6/2973336.html,C2827654,ESD，可防30kV静电
+F1,1,~,,,,EasyEDA_Lib:F1812,https://item.szlcsc.com/datasheet/BSMD1812-250-8V/1039127.html,C960027,8V 2.5A 1812自恢复
+"Q1,Q2,Q3",3,~,,,,EasyEDA_Lib:SOT-23-3_L3.0-W1.6-P1.90-LS2.8-BR,https://item.szlcsc.com/datasheet/AO3400A/5925703.html,C5224194,"N沟道,电流:5.8A,耐压:30V"
+"R1,R2",2,5.1kΩ,,,,EasyEDA_Lib:R0805,https://item.szlcsc.com/datasheet/0805W8F5101T5E/28584.html,C27834,5.1kΩ ±1% 125mW 厚膜电阻
+"R3,R6,R8,R10",4,10kΩ,,,,EasyEDA_Lib:R0603,https://item.szlcsc.com/datasheet/FRC0603J103%2520TS/3266960.html,C2930027,10kΩ ±5% 100mW 厚膜电阻
+"R4,R5,R7,R9,R11,R12,R13,R14,R19,R20",10,100Ω,,,,EasyEDA_Lib:R0603,https://atta.szlcsc.com/upload/public/pdf/source/20180316/70C0E2BDAE7FCC62C531A5A58D202EE1.pdf,C105588,厚膜电阻 100Ω ±1% 100mW
+"R15,R16,R17,R18",4,33Ω,,,,EasyEDA_Lib:R0603,https://item.szlcsc.com/datasheet/RC0603FR-0733RL/109880.html,C108661,厚膜电阻 33Ω ±1% 100mW
+"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11,TP12,TP13,TP14,TP15,TP16,TP17,TP18,TP19,TP20,TP21,TP22,TP23,TP24,TP25,TP26,TP27,TP28,TP29,TP30",30,TestPoint,,,,CustomLibrary:EasyEDA Pad,~,,
+U1,1,2.4GHz,,,,EasyEDA_Lib:WIRELM-SMD_ESP32-S3-WROOM-1,https://item.szlcsc.com/datasheet/ESP32-S3-WROOM-1-N16R2/3198303.html,C2913205,不带固件 通用型Wi-Fi+低功耗蓝牙MCU模组
+"U2,U3,U4,U13,U14,U15,U17",7,~,,,,EasyEDA_Lib:LED0603-FD,https://item.szlcsc.com/datasheet/YLED0603G/20555405.html,C19273151,翠绿色 独立二极管
+"U5,U12",2,~,,,,EasyEDA_Lib:MIC-SMD_6P-L4.0-W2.0_LMD4020T261-OC3,https://item.szlcsc.com/datasheet/MSM261DGT003/50474176.html,C48227730,1.8V 26dB
+U6,1,~,,,,EasyEDA_Lib:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR,https://item.szlcsc.com/datasheet/AMS1117-3.3/19384486.html,C18212698,1A低压差线性稳压器
+U7,1,~,,,,EasyEDA_Lib:TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,https://item.szlcsc.com/datasheet/74HCT245PW/54938180.html,C52140501,74HCT245PW
+"U8,U9,U10,U11,U16",5,249Ω,,,,EasyEDA_Lib:R0603,,C2933176,249Ω ±1% 100mW 厚膜电阻
+"USB1,USB4,USB5",3,~,,,,EasyEDA_Lib:USB-C_SMD-TYPE-C-31-M-12,https://item.szlcsc.com/datasheet/USB-TYPE-C-018/3252507.html,C2927038,Type-C 母 卧贴
+"USB2,USB3",2,~,,,,EasyEDA_Lib:USB-A-TH_AF-SS-JB17.6,https://item.szlcsc.com/datasheet/AF%2520SS-JB17.6/458828.html,C456021,Type-A弯插双层母座
+,,,,,,,,,
+C108661,,,,,,,,C105588,
+0,,,,,,,,C140412,
+C52140501,,,,,,,,C14663,
+C2933176,,,,,,,,C15849,
+,,,,,,,,C17206,
+,,,,,,,,C18212698,
+,,,,,,,,C19273151,
+,,,,,,,,C27834,
+,,,,,,,,C2827654,
+,,,,,,,,C2913205,
+,,,,,,,,C2927038,
+,,,,,,,,C2930027,
+,,,,,,,,C456021,
+,,,,,,,,C48227730,
+,,,,,,,,C49234152,
+,,,,,,,,C5224194,
+,,,,,,,,C602037,
+,,,,,,,,C879894,
+,,,,,,,,C960027,

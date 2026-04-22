@@ -1,0 +1,8 @@
+(version 1)
+(rule "Small annular width for Vias"
+    (condition "A.Type == 'via'")
+    (constraint annular_width (min 0.125mm)))
+
+(rule "Thick annular width for Through-Hole Pads"
+    (condition "A.Type == 'pad'")
+    (constraint annular_width (min 0.2mm)))
