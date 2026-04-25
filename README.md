@@ -23,9 +23,18 @@ I realized while designing I wanted breakout boards for testing the microphone o
 ![Mousebites version of the board](PCB/Images/rev0_2/Mousebites.png)
 
 Unfortunately this was rejected by JLCPCB as containing too many individual designs to quality for lower manufacturing costs, likely due to extra care needed in handling panelized boards. I instead decided to make the breakouts contained within the same shape as the main board (which JLCPCB did accept) and will use the score-and-snap method to separate them when it arrives.
+<table>
+  <tr>
+    <td><img src="PCB/Images/rev0_2/view1.png" alt="View 1"></td>
+    <td><img src="PCB/Images/rev0_2/view2.png" alt="View 2"></td>
+    <td><img src="PCB/Images/rev0_2/view3.png" alt="View 3"></td>
+  </tr>
+</table>
 ![View 1](PCB/Images/rev0_2/view1.png)
 ![View 2](PCB/Images/rev0_2/view2.png)
 ![View 3](PCB/Images/rev0_2/view3.png)
+
+
 
 ## <ins>PCB Update Early April 2026 </ins>
 The first revision of the PCB arrived and came out of JLCPCB fab better than expected. I was a little bit worried about silkscreen readability as text 0.15mm stroke width was ever so slightly below their [manufacturing capabilities](https://jlcpcb.com/capabilities/pcb-capabilities), but it came through perfectly readable.
