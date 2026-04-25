@@ -1,6 +1,5 @@
 # Light Jacket
-
-![Person wearing light jacket glowing green while standing in alley](Images/outside.jpg)
+<img src="Images/outside.jpg" alt="Person wearing light jacket glowing green while standing in alley" width="50%">
 
 In this project I set out to make a jacket for a costume with which I could change colors and pulse lights in a pattern,
 [WLED](https://github.com/WLED/WLED) allowed for app-based control and minimal fiddling once powered on.
@@ -23,23 +22,24 @@ I realized while designing I wanted breakout boards for testing the microphone o
 ![Mousebites version of the board](PCB/Images/rev0_2/Mousebites.png)
 
 Unfortunately this was rejected by JLCPCB as containing too many individual designs to quality for lower manufacturing costs, likely due to extra care needed in handling panelized boards. I instead decided to make the breakouts contained within the same shape as the main board (which JLCPCB did accept) and will use the score-and-snap method to separate them when it arrives.
+![View 1](PCB/Images/rev0_2/view1.png)
 <table>
   <tr>
-    <td><img src="PCB/Images/rev0_2/view1.png" alt="View 1"></td>
     <td><img src="PCB/Images/rev0_2/view2.png" alt="View 2"></td>
     <td><img src="PCB/Images/rev0_2/view3.png" alt="View 3"></td>
   </tr>
 </table>
-![View 1](PCB/Images/rev0_2/view1.png)
-![View 2](PCB/Images/rev0_2/view2.png)
-![View 3](PCB/Images/rev0_2/view3.png)
 
 
 
 ## <ins>PCB Update Early April 2026 </ins>
 The first revision of the PCB arrived and came out of JLCPCB fab better than expected. I was a little bit worried about silkscreen readability as text 0.15mm stroke width was ever so slightly below their [manufacturing capabilities](https://jlcpcb.com/capabilities/pcb-capabilities), but it came through perfectly readable.
-![New board placed horizontally](PCB/Images/rev0_1/NewBoardHorizontal.jpg)
-![New board placed vertically](PCB/Images/rev0_1/NewBoardVertical.jpg)
+<table>
+  <tr>
+    <td><img src="PCB/Images/rev0_1/NewBoardHorizontal.jpg" alt="New board place horizontally"></td>
+    <td><img src="PCB/Images/rev0_1/NewBoardVertical.jpg" alt="New board place vertically"></td>
+  </tr>
+</table>
 
 Soldering was relatively easy if not time-consuming, as this was my first experience with hor air reflow soldering for SMD components.
 ![Ready to solder ESP32](PCB/Images/rev0_1/ESP32SolderPrep.jpg)
