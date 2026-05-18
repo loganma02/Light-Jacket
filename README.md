@@ -4,6 +4,27 @@
 In this project I set out to make a jacket for a costume with which I could change colors and pulse lights in a pattern,
 [WLED](https://github.com/WLED/WLED) allowed for app-based control and minimal fiddling once powered on.
 
+## <ins>PCB Update Mid May 2026 </ins>
+[![light jacket board with lights on](PCB/Images/rev0_2/boardOn.jpg)](https://youtu.be/194a6y9pxL4)
+[See it in action here!](https://youtu.be/194a6y9pxL4)
+<table>
+  <tr>
+    <td><img src="PCB/Images/rev0_2/boardUncut.jpg" alt="New board with breakouts attached"></td>
+    <td><img src="PCB/Images/rev0_2/boardCut.jpg" alt="New board with breakouts removed"></td>
+  </tr>
+</table>
+
+This revision arrived and looks great with the purple silkscreen. Trying the score and snap proved difficult due to the copper pour over the region, but tin shears made easy work of cutting off the breakout boards.
+
+With the breakout board I made to attach to an addressable strip using USB-C I flipped the power and ground connections from what I intended, I wanted to sandwich the solder between the board and the strip. Nonetheless it feels much sturdier than soldering individual wires cut from the inside of a cable, and looks a lot cleaner too.
+The USB-C connector on the board for output works quite well, if I switch away from USB-A I could shrink the vertical footprint too.
+
+![closeup of usbc breakout board](PCB/Images/rev0_2/connector.jpg)
+
+The microphone remains to be working even with an added decoupling capacitor near its power input. There is a breakout board where I'll use a different microcontroller to test its function, perhaps it just isn't compatible with WLED as is.
+
+The 5 onboard LEDs available to control came only from having an abundance of GPIO pins leftover, but I find them to be a nice touch. WLED can easily bundle them into a segment to display effects. Perhaps they could be used to show information to justify their placement beyond aesthetics, but even without I think the small increase in BOM cost is worth it.
+
 ## <ins>PCB Update Mid April 2026 </ins>
 Taking into account some of the problems with the board as it was:
 * Addressable LED control not working as expected
